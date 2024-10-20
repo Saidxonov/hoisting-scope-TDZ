@@ -67,3 +67,14 @@
 //   res.push(value ** 2);
 // });
 // console.log(res);
+
+// ### Masala 6: `map`, `filter`, va `reduce` metodlarini birgalikda ishlatish
+
+// let numbers = [10000, 2000, 300, 100000];
+// let res = numbers.filter(function (value) {
+//   if (value > 2000) {
+//     let sum = (value / 100) * 10;
+//     sum += value;
+//     console.log(sum);
+//   }
+// });
