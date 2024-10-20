@@ -29,3 +29,32 @@
 //     console.log(value);
 //   }
 // });
+
+// ### Masala 3: `filter` va `reduce` metodlari bilan umumiy summani hisoblash
+
+// let numbers = [11000, 11000, 11000, 11000];
+// let sum = 0;
+// let res = numbers.filter(function (value) {
+//   if (value > 10000) {
+//     sum += value;
+//   }
+// });
+// console.log(sum);
+
+// ### Masala 4: `every` va `some` metodlari bilan aniq shartlarni tekshirish
+
+// function numbers(numbers) {
+//   let musbatson = numbers.every((num) => num > 0);
+//   let bigNum = numbers.some((num) => num > 100);
+//   if (musbatson) {
+//     console.log("Barcha sonlar musbat");
+//   } else {
+//     console.log("Musbat bo'lmagan sonlar bor");
+//   }
+
+//   if (bigNum) {
+//     console.log("Katta son bor");
+//   }
+// }
+// let arr = [10, -45, 200, 34, 99];
+// numbers(arr);
