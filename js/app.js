@@ -58,3 +58,12 @@
 // }
 // let arr = [10, -45, 200, 34, 99];
 // numbers(arr);
+
+// ### Masala 5: `forEach` va `map` metodlari bilan massiv elementlarini transformatsiya qilish
+
+// let numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let res = [];
+// numbers.forEach(function (value) {
+//   res.push(value ** 2);
+// });
+// console.log(res);
