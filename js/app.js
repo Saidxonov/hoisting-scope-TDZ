@@ -1,4 +1,4 @@
-//--------------------------------------> Massivlarga oid <---------------------------
+//!--------------------------------------> Massivlarga oid <---------------------------
 
 // ### Masala 1: `map` va `filter` metodlari bilan alifbo tartibini o'zgartirish
 
@@ -78,3 +78,18 @@
 //     console.log(sum);
 //   }
 // });
+
+// ### Masala 7: `find`, `filter`, va `map` metodlari bilan talabalar ma'lumotlarini qayta ishlash
+
+// let students = [
+//   { name: "Saidburxon", age: 13, ball: 100 },
+//   { name: "Sardor", age: 15, ball: 85 },
+//   { name: "Avazbek", age: 15, ball: 70 },
+// ];
+// let result = [];
+// let res = students.filter(function (value) {
+//   if (value.ball > 80) {
+//     result.push(value);
+//   }
+// });
+// console.log(result);
