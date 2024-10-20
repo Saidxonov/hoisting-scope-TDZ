@@ -86,6 +86,7 @@
 //   { name: "Sardor", age: 15, ball: 85 },
 //   { name: "Avazbek", age: 15, ball: 70 },
 // ];
+
 // let result = [];
 // let res = students.filter(function (value) {
 //   if (value.ball > 80) {
