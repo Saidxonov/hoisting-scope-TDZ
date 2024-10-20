@@ -86,7 +86,6 @@
 //   { name: "Sardor", age: 15, ball: 85 },
 //   { name: "Avazbek", age: 15, ball: 70 },
 // ];
-
 // let result = [];
 // let res = students.filter(function (value) {
 //   if (value.ball > 80) {
@@ -94,3 +93,18 @@
 //   }
 // });
 // console.log(result);
+
+//!-----------------------------------> Yozuvlarga oid <-------------------------------
+
+// ### Masala 1: `toUpperCase` metodi bilan harflarni katta harfga aylantirish
+
+// let str = ["salom", "hayr", "salomatmisiz"];
+
+// function bigStr() {
+//   let res = [];
+//   for (let i = 0; i <= str.length - 1; i++) {
+//     res.push(str[i].toUpperCase());
+//   }
+//   console.log(res);
+// }
+// bigStr();
